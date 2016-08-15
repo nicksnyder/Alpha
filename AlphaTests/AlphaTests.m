@@ -7,7 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
-#import <Alpha/AlphaProvider.h>
+#import <Alpha/Alpha.h>
 
 @interface AlphaTests : XCTestCase
 
