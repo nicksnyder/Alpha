@@ -1,6 +1,8 @@
 # Alpha
 
-When creating an objective-c library, remember to:
+Alpha is an objective-c dynamic framework that exposes a public API.
+
+## Guidelines for creating an objective-c dynamic framework
 
 - [ ] Mark public headers as public in the target.
     
