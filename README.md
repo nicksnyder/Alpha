@@ -26,7 +26,7 @@ Alpha is an objective-c dynamic framework that exposes a public API.
 
 These projects depend on Alpha via Cocoapods:
 - [Delta](https://github.com/nicksnyder/Delta)
-- [SwiftApp](https://github.com/nicksnyder/cocoapods-test/SwiftApp)
+- [SwiftApp](https://github.com/nicksnyder/cocoapods-test/tree/master/SwiftApp)
 
 ## TODO
 
