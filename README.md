@@ -22,7 +22,7 @@ Alpha is an objective-c dynamic framework that exposes a public API.
     #import <Alpha/Alpha.h>
     ```
 
-## Usage examples
+## Dependency examples
 
 These projects depend on Alpha via Cocoapods:
 - [Delta](https://github.com/nicksnyder/Delta)
