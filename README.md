@@ -11,8 +11,9 @@ Alpha is an objective-c dynamic framework that exposes a public API.
 - [ ] Import **all** public headers in your project's umbrella header.
 
     ```objc
-    //  Alpha.h
+    //  Alpha.h (this is called an umbrella header and imports all public headers your module exposes)
     #import <Alpha/AlphaProvider.h>
+    #import <Alpha/OtherHeader.h>
     ```
 
 - [ ]  Include the umbrella header in the library's unit tests using angled brackets.
