@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B629ADB1D7F75A800C85EF2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B629ADA1D7F75A800C85EF2 /* Images.xcassets */; };
 		0BFD99D01D5D4FE300160293 /* Alpha.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BFD99CF1D5D4FE300160293 /* Alpha.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0BFD99D71D5D4FE300160293 /* Alpha.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BFD99CC1D5D4FE300160293 /* Alpha.framework */; };
-		0BFD99DC1D5D4FE300160293 /* AlphaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BFD99DB1D5D4FE300160293 /* AlphaTests.m */; };
+		0BFD99DC1D5D4FE300160293 /* AlphaProviderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BFD99DB1D5D4FE300160293 /* AlphaProviderTests.m */; };
 		0BFD99E81D5D50C000160293 /* AlphaProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BFD99E61D5D50C000160293 /* AlphaProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0BFD99E91D5D50C000160293 /* AlphaProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BFD99E71D5D50C000160293 /* AlphaProvider.m */; };
 /* End PBXBuildFile section */
@@ -25,11 +26,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B629ADA1D7F75A800C85EF2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		0BFD99CC1D5D4FE300160293 /* Alpha.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alpha.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BFD99CF1D5D4FE300160293 /* Alpha.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Alpha.h; sourceTree = "<group>"; };
 		0BFD99D11D5D4FE300160293 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0BFD99D61D5D4FE300160293 /* AlphaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlphaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0BFD99DB1D5D4FE300160293 /* AlphaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlphaTests.m; sourceTree = "<group>"; };
+		0BFD99DB1D5D4FE300160293 /* AlphaProviderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlphaProviderTests.m; sourceTree = "<group>"; };
 		0BFD99DD1D5D4FE300160293 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0BFD99E61D5D50C000160293 /* AlphaProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlphaProvider.h; sourceTree = "<group>"; };
 		0BFD99E71D5D50C000160293 /* AlphaProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlphaProvider.m; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 				0BFD99D11D5D4FE300160293 /* Info.plist */,
 				0BFD99E61D5D50C000160293 /* AlphaProvider.h */,
 				0BFD99E71D5D50C000160293 /* AlphaProvider.m */,
+				0B629ADA1D7F75A800C85EF2 /* Images.xcassets */,
 			);
 			path = Alpha;
 			sourceTree = "<group>";
@@ -86,7 +89,7 @@
 		0BFD99DA1D5D4FE300160293 /* AlphaTests */ = {
 			isa = PBXGroup;
 			children = (
-				0BFD99DB1D5D4FE300160293 /* AlphaTests.m */,
+				0BFD99DB1D5D4FE300160293 /* AlphaProviderTests.m */,
 				0BFD99DD1D5D4FE300160293 /* Info.plist */,
 			);
 			path = AlphaTests;
@@ -183,6 +186,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B629ADB1D7F75A800C85EF2 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,7 +212,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0BFD99DC1D5D4FE300160293 /* AlphaTests.m in Sources */,
+				0BFD99DC1D5D4FE300160293 /* AlphaProviderTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,6 +388,7 @@
 				0BFD99E21D5D4FE300160293 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0BFD99E31D5D4FE300160293 /* Build configuration list for PBXNativeTarget "AlphaTests" */ = {
 			isa = XCConfigurationList;
@@ -392,6 +397,7 @@
 				0BFD99E51D5D4FE300160293 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

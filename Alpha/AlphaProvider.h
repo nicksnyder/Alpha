@@ -6,10 +6,13 @@
 //  Copyright © 2016 LinkedIn. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+@import Foundation;
+@import UIKit;
 
 @interface AlphaProvider : NSObject
 
 - (nonnull NSString *)alpha;
+
+- (nullable UIImage *)image;
 
 @end

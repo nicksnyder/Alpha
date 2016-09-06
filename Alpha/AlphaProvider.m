@@ -14,4 +14,9 @@
     return @"alpha";
 }
 
+- (nullable UIImage *)image {
+    NSBundle *bundle = [NSBundle bundleForClass:[self class]];
+    return [UIImage imageNamed:@"100" inBundle:bundle compatibleWithTraitCollection:nil];
+}
+
 @end
